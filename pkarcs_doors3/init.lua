@@ -1,13 +1,14 @@
 screwdriver = screwdriver or {}
 
 pkarcs_doors3 = {}
+
 local S = minetest.get_translator("pkarcs")
 
 -- Register Door Nodes
 pkarcs_doors3.door = {
 	{
 		"acacia_wood",
-		"Acacia Wood",
+		S("Acacia Wood"),
 		{choppy = 2, door = 1},
 		default.node_sound_wood_defaults(),
 		"doors_door",
@@ -17,7 +18,7 @@ pkarcs_doors3.door = {
 
 	{
 		"aspen_wood",
-		"Aspen Wood",
+		S("Aspen Wood"),
 		{choppy = 2, door = 1},
 		default.node_sound_wood_defaults(),
 		"doors_door",
@@ -27,7 +28,7 @@ pkarcs_doors3.door = {
 
 	{
 		"junglewood",
-		"Junglewood",
+		S("Junglewood"),
 		{choppy = 2, door = 1},
 		default.node_sound_wood_defaults(),
 		"doors_door",
@@ -37,7 +38,7 @@ pkarcs_doors3.door = {
 
 	{
 		"pine_wood",
-		"Pine Wood",
+		S("Pine Wood"),
 		{choppy = 2, door = 1},
 		default.node_sound_wood_defaults(),
 		"doors_door",
@@ -47,7 +48,7 @@ pkarcs_doors3.door = {
 
 	{
 		"wood",
-		"Wood",
+		S("Wood"),
 		{choppy = 2, door = 1},
 		default.node_sound_wood_defaults(),
 		"doors_door",
@@ -57,7 +58,7 @@ pkarcs_doors3.door = {
 
 	{
 		"bronze",
-		"Bronze",
+		S("Bronze"),
 		{cracky = 1, level = 2, door = 1},
 		default.node_sound_metal_defaults(),
 		"doors_steel_door",
@@ -67,7 +68,7 @@ pkarcs_doors3.door = {
 
 	{
 		"copper",
-		"Copper",
+		S("Copper"),
 		{cracky = 1, level = 2, door = 1},
 		default.node_sound_metal_defaults(),
 		"doors_steel_door",
@@ -77,7 +78,7 @@ pkarcs_doors3.door = {
 
 	{
 		"iron",
-		"Iron",
+		S("Iron"),
 		{cracky = 1, level = 2, door = 1},
 		default.node_sound_metal_defaults(),
 		"doors_steel_door",
@@ -87,7 +88,7 @@ pkarcs_doors3.door = {
 
 	{
 		"steel",
-		"Steel",
+		S("Steel"),
 		{cracky = 1, level = 2, door = 1},
 		default.node_sound_metal_defaults(),
 		"doors_steel_door",
@@ -97,7 +98,7 @@ pkarcs_doors3.door = {
 
 	{
 		"tin",
-		"Tin",
+		S("Tin"),
 		{cracky = 1, level = 2, door = 1},
 		default.node_sound_metal_defaults(),
 		"doors_steel_door",
@@ -107,7 +108,7 @@ pkarcs_doors3.door = {
 
 	{
 		"bar",
-		"Bar",
+		S("Bar"),
 		{cracky = 1, level = 2, door = 1},
 		default.node_sound_metal_defaults(),
 		"doors_steel_door",
@@ -147,7 +148,7 @@ for _, row in ipairs(pkarcs_doors3.door) do
 
 
 	local Ldoor_def = {
-		description = desc.. " Arch Door3 (left)",
+		description = desc.. " "..S("Arch Door3 (left)"),
 		inventory_image = "pkarcs_doors3_" ..name.. "_item.png",
 		wield_image = "pkarcs_doors3_" ..name.. "_item.png",
 		drawtype = "mesh",
@@ -236,7 +237,7 @@ for _, row in ipairs(pkarcs_doors3.door) do
 	minetest.register_node(":pkarcs_doors3:" ..name.. "_Ldoor_open", Ldoor_open_def)
 
 	local Rdoor_def = {
-		description = desc.. " Arch Door3 (right)",
+		description = desc.. " "..S("Arch Door3 (right)"),
 		inventory_image = "pkarcs_doors3_" ..name.. "_item.png^[transformFXX",
 		wield_image = "pkarcs_doors3_" ..name.. "_item.png^[transformFXX",
 		drawtype = "mesh",
