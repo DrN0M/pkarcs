@@ -1,0 +1,20 @@
+# textdomain: pkarcs
+Arc=
+Outer Arc=
+Inner Arc=
+Arch Door (left) =
+Arch Door (right) =
+Arch Door3 (left) =
+Arch Door3 (right) =
+Acacia Wood =
+Aspen Wood =
+Junglewood=
+Pine Wood=
+Wood=
+Bronze=
+Copper=
+Iron=
+Steel=
+Tin=
+Bar=
+
