@@ -1,3 +1,6 @@
+# Fix
+in order for the mod to work, you need to delete the locale_tmp directory
+
 # Simple Arcs
 This modpack includes 3 mods: 
 
