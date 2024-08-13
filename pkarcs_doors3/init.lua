@@ -1,6 +1,7 @@
 screwdriver = screwdriver or {}
 
 pkarcs_doors3 = {}
+local S = minetest.get_translator("pkarcs")
 
 -- Register Door Nodes
 pkarcs_doors3.door = {
