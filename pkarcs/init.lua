@@ -20,10 +20,11 @@ end
 --]]
 
 
-pkarcs = {}
-local S = minetest.get_translator("pkarcs")
 
+pkarcs = {}
 -- convert integer coordinates to nodebox coordinates
+
+local S = minetest.get_translator("pkarcs")
 
 function nb(n)
 	return n/16-1/2
@@ -40,7 +41,7 @@ function pkarcs.register_all(nodename, desc, tile, sound, group, craftmaterial)
 	end
 
 	minetest.register_node(":pkarcs:"..nodename.."_arc", {
-		description = desc.." Arc",
+		description = desc.. " "..S("Arc"),
 		paramtype = "light",
 		paramtype2 = "facedir",
 		tiles = tile_collection,
@@ -115,7 +116,7 @@ function pkarcs.register_all(nodename, desc, tile, sound, group, craftmaterial)
 	})
 
 	minetest.register_node(":pkarcs:"..nodename.."_outer_arc", {
-		description = desc.." Outer Arc",
+		description = desc.. " "..S("Outer Arc"),
 		paramtype = "light",
 		paramtype2 = "facedir",
 		tiles = tile_collection,
@@ -191,7 +192,7 @@ function pkarcs.register_all(nodename, desc, tile, sound, group, craftmaterial)
 	})
 
 	minetest.register_node(":pkarcs:"..nodename.."_inner_arc", {
-		description = desc.." Inner Arc",
+		description = desc.. " "..S("Inner Arc"),
 		paramtype = "light",
 		paramtype2 = "facedir",
 		tiles = tile_collection,
