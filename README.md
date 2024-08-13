@@ -8,6 +8,7 @@ This modpack includes 3 mods:
 - pkarcs_doors
 - pkarcs_doors3
 
+
 Note this is a fork of PEAK's mod Simple Arcs (pkarcs) https://forum.minetest.net/viewtopic.php?f=11&t=14541 which adds arched doors made to work specifically with the mod.
 
 ## Requirements
@@ -69,8 +70,29 @@ If you know how to fix an issue, or want something to be added, consider opening
 - default:junglewood
 - default:pine_wood
 - default:acacia_wood
-
 - default:aspen_wood
+
+## Add ethereal wood and trunk nodes
+- ethereal:basandra_wood
+- ethereal:sakura_wood
+- ethereal:sakura_trunk
+- ethereal:willow_wood
+- ethereal:willow_trunk
+- ethereal:redwood_wood
+- ethereal:redwood_trunk
+- ethereal:frost_wood
+- ethereal:frost_tree
+- ethereal:yellow_wood
+- ethereal:yellow_trunk
+- ethereal:palm_wood
+- ethereal:palm_trunk
+- ethereal:banana_wood
+- ethereal:banana_trunk
+- ethereal:mushroom_trunk
+- ethereal:birch_wood
+- ethereal:birch_trunk
+- ethereal:olive_wood
+- ethereal:olive_trunk
 
 ## Announcing the new doors
 TumeniNodes 2017-07-03
