@@ -21,6 +21,7 @@ end
 
 
 pkarcs = {}
+local S = minetest.get_translator("pkarcs")
 
 -- convert integer coordinates to nodebox coordinates
 
